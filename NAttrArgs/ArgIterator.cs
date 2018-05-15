@@ -1,5 +1,5 @@
 ﻿//
-// NAttrArgs
+// ETAttrArgs
 //
 // Copyright (c) 2012 Pete Barber
 //
@@ -9,7 +9,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NAttrArgs
+namespace ETAttrArgs
 {
 	public class ArgIterator : IEnumerator<string>
 	{

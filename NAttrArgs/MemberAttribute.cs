@@ -1,5 +1,5 @@
 //
-// NAttrArgs
+// ETAttrArgs
 //
 // Copyright (c) 2012 Pete Barber
 //
@@ -8,7 +8,7 @@
 //
 using System.Reflection;
 
-namespace NAttrArgs
+namespace ETAttrArgs
 {
 	public class MemberAttribute : NArgAttribute
 	{

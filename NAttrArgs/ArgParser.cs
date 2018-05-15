@@ -1,5 +1,5 @@
 //
-// NAttrArgs
+// ETAttrArgs
 //
 // Copyright (c) 2012 Pete Barber
 //
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace NAttrArgs
+namespace ETAttrArgs
 {
 	public class ArgParser<T> where T : class
 	{

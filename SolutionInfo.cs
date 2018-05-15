@@ -1,5 +1,5 @@
 ﻿//
-// NAttrArgs
+// ETAttrArgs
 //
 // Copyright (c) 2011 Pete Barber
 //
@@ -12,11 +12,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NAttrArgs")]
+[assembly: AssemblyTitle("ETAttrArgs")]
 [assembly: AssemblyDescription("A .NET attribute based command line argument parser")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Pete Barber")]
-[assembly: AssemblyProduct("NAttrArgs")]
+[assembly: AssemblyProduct("ETAttrArgs")]
 [assembly: AssemblyCopyright("Copyright © Pete Barber 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
