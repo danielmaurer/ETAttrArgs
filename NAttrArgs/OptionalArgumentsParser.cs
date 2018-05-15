@@ -52,11 +52,7 @@ namespace ETAttrArgs
 			string argName = ParseOptionalArgName(_argIt.Current);
 
 			MemberAttribute handler = FindMatchingOptionOrThrow(argName);
-
-			if (handler.HasOptionalArgument == false)
-				MemberSetter.SetOptionalFlagArg(_t, handler, true);
-			else
-				ParseOptionalArgumentWithOptionalArgument(argName, handler);
+			ParseOptionalArgumentWithOptionalArgument(argName, handler);
 		}
 
 		private void ParseOptionalArgumentWithOptionalArgument(string argName, MemberAttribute handler)
