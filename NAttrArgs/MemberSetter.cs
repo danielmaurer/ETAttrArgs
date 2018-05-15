@@ -28,7 +28,7 @@ namespace ETAttrArgs
 		{
 			if (arg.AllowedValues != null)
 				if (arg.AllowedValues.Contains(value) == false)
-					throw new FormatException(string.Format("Not an allowed value:{0}", value));
+					throw new FormatException(string.Format("Not an allowed value for {0}: {1}", arg.AltName, value));
 
 			SetImpl(t, arg, value);
 		}
